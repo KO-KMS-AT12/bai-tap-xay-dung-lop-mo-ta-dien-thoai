@@ -6,4 +6,5 @@ function PlugTheCharger() {
         return this.status;
     }
 }
+
 module.exports = PlugTheCharger;

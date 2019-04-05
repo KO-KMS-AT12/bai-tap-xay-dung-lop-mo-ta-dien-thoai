@@ -1,6 +1,7 @@
 var Turn = require('./power');
 var Battery = require('./battery');
 var PlugTheCharger = require('./charging');
+
 const LOG = console.log;
 
 let turnOn = new Turn();
@@ -23,7 +24,6 @@ battery.setEnergy(90);
 battery.loadedEnergy(charged);
 
 LOG(battery.getEnergy() + "%");
-
 
 
 
