@@ -1,3 +1,5 @@
+const LOG = console.log;
+
 function Battery() {
     this.getEnergy = function () {
         return this.energy;
