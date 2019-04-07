@@ -10,8 +10,10 @@ function Battery() {
     };
 
     this.decreaseEnergy = function () {
-        if (this.energy > 0) {
+        if (this.energy > 1) {
             this.energy--;
+        }else {
+            LOG('Hay cam sac pin truoc khi sap nguon')
         }
     };
 
@@ -19,10 +21,10 @@ function Battery() {
         if (status) {
             this.energy++;
         } else {
-            LOG("Pin hien tai la: " + this.energy + "% ban co muon cam sac khong")
+            LOG("Pin hien tai la: " + this.energy + "% ban co muon cam sac khong ?")
         }
     };
 
 }
 
-module.exports = Battery;
+module.exports = Battery;// su dung trong moi truong nodejs

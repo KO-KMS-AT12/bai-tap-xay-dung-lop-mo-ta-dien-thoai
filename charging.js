@@ -7,4 +7,4 @@ function PlugTheCharger() {
     }
 }
 
-module.exports = PlugTheCharger;
+module.exports = PlugTheCharger;// su dung trong moi truong nodejs
